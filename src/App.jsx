@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Search from "./components/Search";
-import Spinner from "./components/spinner";
+import {Spinner } from "./components/Spinner"
 import MovieCard from "./components/MovieCard";
 import { useDebounce } from "react-use";
 import { getTrendingMovies, updateSearchCount } from "./appWrite";
@@ -111,7 +111,7 @@ const App = () => {
           <h2>All Movies</h2>
 
           {loading ? (
-           <Spinner/>
+        <Spinner />
           ) : errorMessage ? (
             <p className="text-red-500">{errorMessage}</p>
           ) : (
