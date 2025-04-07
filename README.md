@@ -29,8 +29,7 @@ This app displays **Trending Movies**, **Top Rated Movies**, and includes a **po
 
 ## 🔗 Live Demo
 
-👉 [Click here to view the live demo](#)  
-*(Live link will be updated soon)*
+👉 https://react-movie-app-finaly.vercel.app/
 
 ---
 
